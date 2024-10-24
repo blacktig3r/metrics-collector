@@ -31,12 +31,16 @@ The collected data is stored in a PVC to ensure persistence, even in case of pod
 
 The cron job is containerized using the provided Dockerfile. The image is built with the necessary Bash script (fetch_metrics.sh) and pushed to Google Container Registry (GCR) or any other container registry.
 
-```plaintext
-
 #Build the Docker image:
 
+```plaintext
 docker build -t gcr.io/<your-project-id>/metrics-collector:latest .
+```
 
 #Push the image to GCR:
 
+```plaintext
 docker push gcr.io/<your-project-id>/metrics-collector:latest
+```
+
+
