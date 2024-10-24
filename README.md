@@ -10,7 +10,7 @@ This project collects system-level metrics from Kubernetes nodes by leveraging P
    
 The collected data is stored in a PVC to ensure persistence, even in case of pod restarts. The cron job runs periodically, pulling metrics and saving them in timestamped log files.
 
-## Project Structure
+## Directory Structure
 
 ```plaintext
 ./
