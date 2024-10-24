@@ -1,0 +1,10 @@
+image:
+  repository: "us-east1-docker.pkg.dev/fyber-sandbox/metrics-collector/metrics-collector"
+  tag: "v2"
+schedule: "* * * * *"  # By default, run every minute
+
+persistence:
+  enabled: true
+  accessMode: ReadWriteOnce
+  size: 1Gi
+

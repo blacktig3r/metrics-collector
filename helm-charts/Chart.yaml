@@ -1,0 +1,6 @@
+apiVersion: v2
+name: my-metrics-cronjob
+description: A Helm chart to deploy a Kubernetes cron job for pulling node metrics
+version: 0.1.0
+appVersion: "1.0"
+
