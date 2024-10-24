@@ -25,6 +25,7 @@ The collected data is stored in a PVC to ensure persistence, even in case of pod
 └── manifest
     ├── inspect-volume-pod.yaml
     └── node-exporter-daemonset.yaml
+```
 
 ## Docker Container
 
